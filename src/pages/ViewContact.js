@@ -30,6 +30,7 @@ const ViewContact = () => {
                 width="150"
                 className="cardImg profile border-danger"
                 src={contact?.picture}
+                alt=""
               />
               <CardTitle className="text-primary mt-3">
                 <h1>{contact?.name}</h1>
