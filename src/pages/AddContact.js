@@ -25,8 +25,6 @@ import { readAndCompressImage } from "browser-image-resizer";
 //TODO: DONE add image configurations
 import { imageConfig } from "../utils/config";
 
-import { MdAddCircleOutline } from "react-icons/md";
-
 import { v4 } from "uuid";
 
 // context stuffs
@@ -114,7 +112,7 @@ const AddContact = () => {
               console.log("UPloading is in progress...");
               break;
           }
-          if (progress == 100) {
+          if (progress === 100) {
             setIsUploading(false);
             toast("uploaded", { type: "success" });
           }
