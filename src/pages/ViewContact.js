@@ -54,6 +54,7 @@ const ViewContact = () => {
               <a
                 className="btn btn-primary btn-block"
                 target="_blank"
+                rel="noopener noreferrer"
                 //TODO: add google maps
                 href={`https://maps.google.com/?=${contact?.address}`}
               >
