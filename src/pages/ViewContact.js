@@ -44,6 +44,7 @@ const ViewContact = () => {
               <a
                 className="btn btn-primary btn-block"
                 target="_blank"
+                rel="noopener noreferrer"
                 href={`mailto:{contact?.email}`}
               >
                 <FaEnvelope className="icon mr-2" />
