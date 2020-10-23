@@ -111,6 +111,8 @@ const AddContact = () => {
             case firebase.storage.TaskState.RUNNING:
               console.log("UPloading is in progress...");
               break;
+            default:
+              console.log("Process Stopped")
           }
           if (progress === 100) {
             setIsUploading(false);
